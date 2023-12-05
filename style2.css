@@ -1,0 +1,42 @@
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-left: 680px;
+  }
+  
+  p {
+    margin-left: 20px; 
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .image-container2 {
+    display: flex;
+    align-items: center;
+    margin-left: 485px;
+  }
+
+  .round-image {
+   
+    width: 230px; 
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+  }
+
+  .rectangle {
+    width: 160px; 
+    height: 15px; 
+    background-color: rgba(23, 21, 21, 0.881); 
+}
+
+.columns {
+  display: flex;
+  gap: 40px;
+}
+
+.column {
+  width: 50%;
+}
